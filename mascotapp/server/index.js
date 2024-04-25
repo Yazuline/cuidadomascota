@@ -11,7 +11,7 @@ const routerReserva = require('./routes/routeReserva');
 
 const PORT = process.env.PORT || 3001;
 Connection();
-const app = express();
+const app = express()
 
 app.use(cors());
 app.use(express.json());
