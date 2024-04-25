@@ -19,7 +19,7 @@ app.use(express.static('public'));
 
 // Validando que la url frontend se pueda revisar
 const corsOptions = {
-    origin: 'https://cuidadomascota.vercel.app/', // URL de frontend
+    origin: 'https://cuidadomascota.vercel.app', // URL de frontend
     optionsSuccessStatus: 200 // Algunos navegadores antiguos (IE11, varios SmartTVs) interpretarán correctamente los códigos de estado 204 y devolverán el cuerpo de la respuesta.
   }
   
