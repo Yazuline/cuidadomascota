@@ -1,0 +1,53 @@
+/*Estilo del banner*/
+.banner-container{
+    background-image: linear-gradient(rgba(60, 59, 59, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.pexels.com/photos/5745261/pexels-photo-5745261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18%;/*10rem*/
+    color: #fff;
+}
+
+.banner-container h1{
+    margin-bottom: 2.5rem;
+    font-size: 3rem; /*2.5*/
+}
+
+.banner-info{
+    width: 60%;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (width <= 1113px){
+    .banner-info{
+        width: 90%;
+    }
+}
+
+@media screen and (width <= 850px){
+    .banner-container h1{
+        font-size: 7vmin;
+        
+    }
+
+    /*.homeInfo__container{
+        font-size: 2.3vmin;
+    }*/
+}
+
+@media screen and (width <= 709px){
+    .banner-container h1{
+        margin-top: 4.5rem;
+        
+    }
+}
+
+@media screen and (width <= 687px){
+    .banner-container h1{
+        font-size: 5.5vmin;
+    }
+
+    .bannerInfo-container p{
+        font-size: 3vmin;
+    }
+}

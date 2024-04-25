@@ -1,0 +1,89 @@
+.about__container{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container img{
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.aboutImages__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutImg1,
+.aboutImg3{
+    margin-left: 10rem;
+}
+
+.aboutInfo__container{
+    /*margin-top: -8rem;*/
+    margin-left: 2rem;
+}
+
+.aboutInfo__container img{
+    width: 10%;
+}
+.aboutInfo__container h4,
+.aboutInfo__container h1,
+.aboutInfo__container p{
+    margin-bottom: 1rem;
+}
+
+.aboutInfo__container h4{
+    color: #3758F9;
+}
+
+.aboutInfo__container h1{
+    font-size: 3rem;
+}
+
+.pet-icon{
+    margin-top: 25px;
+    width: 10%;
+}
+
+@media screen and (width <= 1064px){
+    .aboutInfo__container h1{
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (width <= 835px){
+    .about__container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 12.5%;
+    }
+
+    .pet-icon{
+        display: none;
+    }
+
+    .aboutInfo__container{
+        margin-bottom: 3rem;
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (width <= 688px){
+    .aboutInfo__container h1{
+        font-size: 7vmin;
+    }
+
+    .aboutInfo__container p,
+    .about__container h4{
+        font-size: 3vmin;
+    }
+}
+
+@media screen and (width <= 395px){
+    .aboutImg1,
+    .aboutImg3{
+        margin-left: 45%;
+    }
+}

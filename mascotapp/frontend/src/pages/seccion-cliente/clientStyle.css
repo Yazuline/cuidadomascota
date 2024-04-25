@@ -1,0 +1,29 @@
+.client-section{
+    margin-top: 6rem;
+    padding: 50px; /*20px*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.client-section h2{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+}
+
+@media screen and (width <= 942px){
+    .client-section{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (width <= 483px){
+    .client-section h2{
+        font-size: 7vmin;
+        text-wrap: nowrap;
+    }
+}
