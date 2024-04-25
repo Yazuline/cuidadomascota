@@ -1,7 +1,7 @@
 // config.ts
-
+require('dotenv').config();
 const PORT = process.env.PORT || 3001;
-const API_URL = `https://cuidadomascota.vercel.app:${PORT}`  
+const API_URL = `https://cuidadomascota.vercel.app`  
 
 export default API_URL;
 
