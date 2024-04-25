@@ -21,7 +21,7 @@ app.use(express.static('public'));
 const corsOptions = {
     origin: 'https://cuidadomascota.vercel.app', // URL de frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true
+    credentials: true,
 
     optionsSuccessStatus: 200 // Algunos navegadores antiguos (IE11, varios SmartTVs) interpretarán correctamente los códigos de estado 204 y devolverán el cuerpo de la respuesta.
   }
